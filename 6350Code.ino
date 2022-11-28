@@ -91,7 +91,7 @@ void loop() {
       lcd.setCursor(0,0);
       lcd.print("HR");
       lcd.print(HR);
-      lcd.print("bmp");
+      lcd.print("bpm");
     }
     n=n+1;
   }
@@ -111,7 +111,7 @@ void loop() {
       lcd.setCursor(0,1);
       lcd.print("RR");
       lcd.print(RR);
-      lcd.print("brmp");
+      lcd.print("brpm");
     }
   x=x+1;
   }
